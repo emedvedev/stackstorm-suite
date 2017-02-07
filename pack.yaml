@@ -1,0 +1,7 @@
+---
+name: Suite Test
+ref: suite_test
+description: Test of the Suite UI for BWC (actions from the "examples" pack).
+version: 0.1.0
+author: Edward Medvedev
+email: emedvedev@stackstorm.com
