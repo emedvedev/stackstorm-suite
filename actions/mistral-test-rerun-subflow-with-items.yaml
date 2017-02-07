@@ -1,7 +1,7 @@
 ---
 name: mistral-test-rerun-subflow-with-items
 description: A sample workflow used to test the rerun feature.
-pack: examples
+pack: suite_test
 runner_type: mistral-v2
 entry_point: workflows/mistral-test-rerun-subflow-with-items.yaml
 enabled: true

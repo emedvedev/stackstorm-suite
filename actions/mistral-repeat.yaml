@@ -3,7 +3,7 @@ description: Repeat a local linux command for given number of times.
 enabled: true
 entry_point: workflows/mistral-repeat.yaml
 name: mistral-repeat
-pack: examples
+pack: suite_test
 parameters:
   cmd:
     required: true

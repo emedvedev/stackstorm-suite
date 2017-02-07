@@ -3,5 +3,5 @@ description: Example to return workflow's environment variable
 enabled: true
 entry_point: workflows/mistral-env-var.yaml
 name: mistral-env-var
-pack: examples
+pack: suite_test
 runner_type: mistral-v2

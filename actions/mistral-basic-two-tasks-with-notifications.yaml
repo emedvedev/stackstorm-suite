@@ -1,6 +1,6 @@
 ---
 name: mistral-basic-two-tasks-with-notifications
-pack: examples
+pack: suite_test
 description: Run mistral workflow with two tasks.
 runner_type: mistral-v2
 entry_point: workflows/mistral-basic-two-tasks-with-notifications.yaml

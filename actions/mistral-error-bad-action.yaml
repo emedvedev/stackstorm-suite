@@ -3,5 +3,5 @@ description: A sample workflow for testing error handling if action does not exi
 enabled: true
 entry_point: workflows/mistral-error-bad-action.yaml
 name: mistral-error-bad-action
-pack: examples
+pack: suite_test
 runner_type: mistral-v2

@@ -3,7 +3,7 @@ description: Test the output for a series of mistral-basic workflows.
 enabled: true
 entry_point: workflows/mistral-workbook-subflows.yaml
 name: mistral-workbook-subflows
-pack: examples
+pack: suite_test
 parameters:
   adjective:
     default: awesome

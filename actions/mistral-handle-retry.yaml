@@ -3,7 +3,7 @@ description: Workflow example for error, rollback, and retry.
 enabled: true
 entry_point: workflows/mistral-handle-retry.yaml
 name: mistral-handle-retry
-pack: examples
+pack: suite_test
 parameters:
   workflow:
     default: examples.mistral-handle-retry.main

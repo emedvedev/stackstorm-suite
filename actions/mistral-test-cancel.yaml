@@ -3,7 +3,7 @@ description: A sample workflow used to test the cancel feature.
 enabled: true
 entry_point: workflows/mistral-test-cancel.yaml
 name: mistral-test-cancel
-pack: examples
+pack: suite_test
 parameters:
   sleep:
     type: integer

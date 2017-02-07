@@ -3,7 +3,7 @@ description: Workflow example for error handling.
 enabled: true
 entry_point: workflows/mistral-handle-error-task-default.yaml
 name: mistral-handle-error-task-default
-pack: examples
+pack: suite_test
 parameters:
   cmd:
     default: foobar

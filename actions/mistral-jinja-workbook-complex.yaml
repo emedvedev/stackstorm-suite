@@ -3,7 +3,7 @@ description: Run a series of simulated actions.
 enabled: true
 entry_point: workflows/mistral-jinja-workbook-complex.yaml
 name: mistral-jinja-workbook-complex
-pack: examples
+pack: suite_test
 parameters:
   cpu_cores:
     default: 1

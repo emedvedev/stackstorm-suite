@@ -5,5 +5,5 @@ description: >
 enabled: true
 entry_point: workflows/mistral-yaql-st2kv-user-scope.yaml
 name: mistral-yaql-st2kv-user-scope
-pack: examples
+pack: suite_test
 runner_type: mistral-v2

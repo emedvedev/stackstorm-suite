@@ -3,5 +3,5 @@ description: A sample workflow used to test bad task transition statement.
 enabled: true
 entry_point: workflows/mistral-error-bad-task-transition.yaml
 name: mistral-error-bad-task-transition
-pack: examples
+pack: suite_test
 runner_type: mistral-v2

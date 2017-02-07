@@ -5,5 +5,5 @@ description: >
 enabled: true
 entry_point: workflows/mistral-jinja-st2kv-system-scope.yaml
 name: mistral-jinja-st2kv-system-scope
-pack: examples
+pack: suite_test
 runner_type: mistral-v2

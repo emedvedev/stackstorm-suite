@@ -3,7 +3,7 @@ description: Demonstrate how to use condition to select branch of execution.
 enabled: true
 entry_point: workflows/mistral-branching.yaml
 name: mistral-branching
-pack: examples
+pack: suite_test
 parameters:
   which:
     type: string
