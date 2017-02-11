@@ -5,18 +5,17 @@ description: Test of the Suite UI for BWC (actions from the "examples" pack).
 version: 0.1.0
 author: Edward Medvedev
 email: emedvedev@stackstorm.com
-system:
-  groups:
-    - name: "Manage IP Fabric Infrastructure"
-      suites: ["ipfabric"]
-      actions:
-        - echochain
-        - echochain-param
-        - local-random-exit
-    - name: "Manage VCS Fabric Workloads"
-      suites: ["ipfabric", "suite 2"]
-      actions:
-        - mistral-workbook-basic
-        - isprime
-        - remote-fib
-        - time_jinja_filter
+groups:
+  - name: "Manage IP Fabric Infrastructure"
+    suites: ["ipfabric"]
+    actions:
+      - echochain
+      - echochain-param
+      - local-random-exit
+  - name: "Manage VCS Fabric Workloads"
+    suites: ["ipfabric", "suite 2"]
+    actions:
+      - mistral-workbook-basic
+      - isprime
+      - remote-fib
+      - time_jinja_filter
